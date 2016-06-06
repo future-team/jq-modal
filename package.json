@@ -1,7 +1,7 @@
 {
   "name": "jq-modal",
   "version": "0.1.2",
-  "description": "模块开发脚手架项目",
+  "description": "一款基于jquery编写的模态框，弹窗。",
   "main": "lib/",
   "repository": "git@github.com:future-team/jq-modal.git",
   "keywords": [
