@@ -83,13 +83,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.mask = _Dialog3['default'];
 
-	var _Confirm = __webpack_require__(31);
+	var _Confirm = __webpack_require__(32);
 
 	var _Confirm2 = _interopRequireDefault(_Confirm);
 
 	exports.confirm = _Confirm2['default'];
 
-	var _alert2 = __webpack_require__(33);
+	var _alert2 = __webpack_require__(34);
 
 	var _alert3 = _interopRequireDefault(_alert2);
 
@@ -148,7 +148,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	// module
-	exports.push([module.id, ".f-modal {\n  /* position: fixed;*/\n  /*display: none;*/\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  background: #fff;\n  border: 1px solid #e2e2e2;\n  min-width: 350px;\n}\n.f-modal .header {\n  text-align: center;\n  font-size: 16px;\n  margin-top: 20px;\n}\n.f-modal .content {\n  margin-top: 15px;\n}\n.f-modal .footer {\n  margin-top: 15px;\n}\n.f-modal .footer button {\n  border: 1px solid #2a7ba7;\n  color: #fff;\n  display: inline-block;\n  zoom: 1;\n  font-size: 14px;\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  padding: 8px 15px;\n  outline: none;\n  margin: 0 5px;\n  cursor: pointer;\n  background-color: #168bcc;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#1788c3), to(#168ed6));\n  background-image: -webkit-linear-gradient(top, #1788c3, #168ed6);\n  background-image: -moz-linear-gradient(top, #1788c3, #168ed6);\n  background-image: -o-linear-gradient(top, #1788c3, #168ed6);\n  background-image: -ms-linear-gradient(top, #1788c3, #168ed6);\n  background-image: linear-gradient(top, #1788c3, #168ed6);\n  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#1788c3', EndColorStr='#168ed6');\n}\n.f-modal .footer button:hover {\n  background: #147bb5;\n}\n.f-modal .footer .cancel {\n  color: #333;\n  border-color: #d9d9d9;\n  background-color: #f7f7f7;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#fafafa));\n  background-image: -webkit-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: -moz-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: -o-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: -ms-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: linear-gradient(top, #f5f5f5, #fafafa);\n  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#f5f5f5', EndColorStr='#fafafa');\n}\n.f-modal .footer .cancel:hover {\n  background: #eaeaea;\n}\n.f-modal .close {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  cursor: pointer;\n  background: url(" + __webpack_require__(5) + ") no-repeat center center;\n}\n.f-modal.alert,\n.f-modal.confirm {\n  padding: 0 20px 20px;\n  text-align: center;\n  line-height: 20px;\n}\n.f-modal-background {\n  opacity: 0.6;\n  filter: alpha(opacity=60);\n  background: #000;\n  z-index: 7000;\n  left: 0;\n  top: 0;\n  display: none;\n  position: absolute;\n}\n", ""]);
+	exports.push([module.id, ".f-modal {\n  /* position: fixed;*/\n  /*display: none;*/\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  background: #fff;\n  border: 1px solid #e2e2e2;\n  min-width: 350px;\n}\n.f-modal .header {\n  text-align: center;\n  font-size: 16px;\n  padding-top: 20px;\n}\n.f-modal .content {\n  margin-top: 15px;\n}\n.f-modal .footer {\n  margin-top: 15px;\n}\n.f-modal .footer button {\n  border: 1px solid #2a7ba7;\n  color: #fff;\n  display: inline-block;\n  zoom: 1;\n  font-size: 14px;\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  padding: 8px 15px;\n  outline: none;\n  margin: 0 5px;\n  cursor: pointer;\n  background-color: #168bcc;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#1788c3), to(#168ed6));\n  background-image: -webkit-linear-gradient(top, #1788c3, #168ed6);\n  background-image: -moz-linear-gradient(top, #1788c3, #168ed6);\n  background-image: -o-linear-gradient(top, #1788c3, #168ed6);\n  background-image: -ms-linear-gradient(top, #1788c3, #168ed6);\n  background-image: linear-gradient(top, #1788c3, #168ed6);\n  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#1788c3', EndColorStr='#168ed6');\n}\n.f-modal .footer button:hover {\n  background: #147bb5;\n}\n.f-modal .footer .cancel {\n  color: #333;\n  border-color: #d9d9d9;\n  background-color: #f7f7f7;\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#fafafa));\n  background-image: -webkit-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: -moz-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: -o-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: -ms-linear-gradient(top, #f5f5f5, #fafafa);\n  background-image: linear-gradient(top, #f5f5f5, #fafafa);\n  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorStr='#f5f5f5', EndColorStr='#fafafa');\n}\n.f-modal .footer .cancel:hover {\n  background: #eaeaea;\n}\n.f-modal .close {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  cursor: pointer;\n  background: url(" + __webpack_require__(5) + ") no-repeat center center;\n}\n.f-modal.alert,\n.f-modal.confirm {\n  padding: 0 20px 20px;\n  text-align: center;\n  line-height: 20px;\n}\n.f-modal-background {\n  opacity: 0.6;\n  filter: alpha(opacity=60);\n  background: #000;\n  z-index: 7000;\n  left: 0;\n  top: 0;\n  display: none;\n  position: absolute;\n}\n", ""]);
 
 	// exports
 
@@ -466,11 +466,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
-	var _Options = __webpack_require__(10);
+	var _Options = __webpack_require__(11);
 
 	var _Options2 = _interopRequireDefault(_Options);
 
-	var _templateDialogHtml = __webpack_require__(11);
+	var _templateDialogHtml = __webpack_require__(12);
 
 	var _templateDialogHtml2 = _interopRequireDefault(_templateDialogHtml);
 
@@ -514,6 +514,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	var _jquery = __webpack_require__(7);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
+
+	var _Drag = __webpack_require__(10);
+
+	var _Drag2 = _interopRequireDefault(_Drag);
 
 	//let modalMap = {};
 
@@ -649,6 +653,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                this.bindEvent();
 	            }
 	            this.modal.data('bindEvent', 1);
+	            this.drag(element.find('.header'));
 	            //this.container.append(this.element.clone(true) );
 	        } else {
 	                this.createModal();
@@ -662,6 +667,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	        }, c));
 
 	        this.setCenter();
+	    };
+
+	    Modal.prototype.drag = function drag(id) {
+	        if (this.options.isDrag) {
+	            _Drag2['default'](id, this.modal);
+	        }
 	    };
 
 	    Modal.prototype.bindEvent = function bindEvent() {
@@ -696,6 +707,82 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _jquery = __webpack_require__(7);
+
+	var _jquery2 = _interopRequireDefault(_jquery);
+
+	var page = {
+	    event: function event(evt) {
+	        var ev = evt || window.event;
+	        return ev;
+	    },
+	    pageX: function pageX(evt) {
+	        var e = this.event(evt);
+	        return e.pageX || e.clientX + document.body.scrollLeft - document.body.clientLeft;
+	    },
+	    pageY: function pageY(evt) {
+	        var e = this.event(evt);
+	        return e.pageY || e.clientY + document.body.scrollTop - document.body.clientTop;
+	    },
+	    layerX: function layerX(evt) {
+	        var e = this.event(evt);
+	        return e.layerX || e.offsetX;
+	    },
+	    layerY: function layerY(evt) {
+	        var e = this.event(evt);
+	        return e.layerY || e.offsetY;
+	    }
+	};
+
+	function Drag(id, current) {
+
+	    var needMove = current ? current : id;
+
+	    _jquery2['default'](id).css({
+	        cursor: 'move'
+	    });
+	    _jquery2['default'](id).on('mousedown', function (e) {
+	        var d = document;
+	        var that = needMove;
+	        var x = page.layerX(e);
+	        var y = page.layerY(e);
+	        if (that.setCapture) {
+	            that.setCapture();
+	        } else if (window.captureEvents) {
+	            window.captureEvents(Event.MOUSEMOVE | Event.MOUSEUP);
+	        }
+	        _jquery2['default'](d).on('mousemove.drag-move', function (e) {
+	            var tx = page.pageX(e) - x;
+	            var ty = page.pageY(e) - y;
+	            that.css({
+	                top: ty,
+	                left: tx
+	            });
+	        });
+	        _jquery2['default'](d).on('mouseup.drag-up', function () {
+	            if (that.releaseCapture) {
+	                that.releaseCapture();
+	            } else if (window.releaseEvents) {
+	                window.releaseEvents(Event.MOUSEMOVE | Event.MOUSEUP);
+	            }
+	            _jquery2['default'](d).off('mousemove.drag-move').off('mouseup.drag-up');
+	        });
+	    });
+	}
+
+	exports['default'] = Drag;
+	module.exports = exports['default'];
+
+/***/ },
+/* 11 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -742,10 +829,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Handlebars = __webpack_require__(12);
+	var Handlebars = __webpack_require__(13);
 	function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
 	module.exports = (Handlebars["default"] || Handlebars).template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
 	    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
@@ -758,16 +845,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	},"useData":true});
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Create a simple path alias to allow browserify to resolve
 	// the runtime on a supported path.
-	module.exports = __webpack_require__(13)['default'];
+	module.exports = __webpack_require__(14)['default'];
 
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -781,30 +868,30 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
 
-	var _handlebarsBase = __webpack_require__(14);
+	var _handlebarsBase = __webpack_require__(15);
 
 	var base = _interopRequireWildcard(_handlebarsBase);
 
 	// Each of these augment the Handlebars object. No need to setup here.
 	// (This is done to easily share code between commonjs and browse envs)
 
-	var _handlebarsSafeString = __webpack_require__(28);
+	var _handlebarsSafeString = __webpack_require__(29);
 
 	var _handlebarsSafeString2 = _interopRequireDefault(_handlebarsSafeString);
 
-	var _handlebarsException = __webpack_require__(16);
+	var _handlebarsException = __webpack_require__(17);
 
 	var _handlebarsException2 = _interopRequireDefault(_handlebarsException);
 
-	var _handlebarsUtils = __webpack_require__(15);
+	var _handlebarsUtils = __webpack_require__(16);
 
 	var Utils = _interopRequireWildcard(_handlebarsUtils);
 
-	var _handlebarsRuntime = __webpack_require__(29);
+	var _handlebarsRuntime = __webpack_require__(30);
 
 	var runtime = _interopRequireWildcard(_handlebarsRuntime);
 
-	var _handlebarsNoConflict = __webpack_require__(30);
+	var _handlebarsNoConflict = __webpack_require__(31);
 
 	var _handlebarsNoConflict2 = _interopRequireDefault(_handlebarsNoConflict);
 
@@ -839,7 +926,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -850,17 +937,17 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
-	var _exception = __webpack_require__(16);
+	var _exception = __webpack_require__(17);
 
 	var _exception2 = _interopRequireDefault(_exception);
 
-	var _helpers = __webpack_require__(17);
+	var _helpers = __webpack_require__(18);
 
-	var _decorators = __webpack_require__(25);
+	var _decorators = __webpack_require__(26);
 
-	var _logger = __webpack_require__(27);
+	var _logger = __webpack_require__(28);
 
 	var _logger2 = _interopRequireDefault(_logger);
 
@@ -949,7 +1036,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1079,7 +1166,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1125,7 +1212,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1136,31 +1223,31 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _helpersBlockHelperMissing = __webpack_require__(18);
+	var _helpersBlockHelperMissing = __webpack_require__(19);
 
 	var _helpersBlockHelperMissing2 = _interopRequireDefault(_helpersBlockHelperMissing);
 
-	var _helpersEach = __webpack_require__(19);
+	var _helpersEach = __webpack_require__(20);
 
 	var _helpersEach2 = _interopRequireDefault(_helpersEach);
 
-	var _helpersHelperMissing = __webpack_require__(20);
+	var _helpersHelperMissing = __webpack_require__(21);
 
 	var _helpersHelperMissing2 = _interopRequireDefault(_helpersHelperMissing);
 
-	var _helpersIf = __webpack_require__(21);
+	var _helpersIf = __webpack_require__(22);
 
 	var _helpersIf2 = _interopRequireDefault(_helpersIf);
 
-	var _helpersLog = __webpack_require__(22);
+	var _helpersLog = __webpack_require__(23);
 
 	var _helpersLog2 = _interopRequireDefault(_helpersLog);
 
-	var _helpersLookup = __webpack_require__(23);
+	var _helpersLookup = __webpack_require__(24);
 
 	var _helpersLookup2 = _interopRequireDefault(_helpersLookup);
 
-	var _helpersWith = __webpack_require__(24);
+	var _helpersWith = __webpack_require__(25);
 
 	var _helpersWith2 = _interopRequireDefault(_helpersWith);
 
@@ -1177,14 +1264,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	exports.__esModule = true;
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
 	exports['default'] = function (instance) {
 	  instance.registerHelper('blockHelperMissing', function (context, options) {
@@ -1222,7 +1309,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1232,9 +1319,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
-	var _exception = __webpack_require__(16);
+	var _exception = __webpack_require__(17);
 
 	var _exception2 = _interopRequireDefault(_exception);
 
@@ -1322,7 +1409,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1332,7 +1419,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _exception = __webpack_require__(16);
+	var _exception = __webpack_require__(17);
 
 	var _exception2 = _interopRequireDefault(_exception);
 
@@ -1353,14 +1440,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	exports.__esModule = true;
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
 	exports['default'] = function (instance) {
 	  instance.registerHelper('if', function (conditional, options) {
@@ -1388,7 +1475,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 22 */
+/* 23 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1420,7 +1507,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 23 */
+/* 24 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1438,14 +1525,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 24 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	exports.__esModule = true;
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
 	exports['default'] = function (instance) {
 	  instance.registerHelper('with', function (context, options) {
@@ -1477,7 +1564,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1488,7 +1575,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _decoratorsInline = __webpack_require__(26);
+	var _decoratorsInline = __webpack_require__(27);
 
 	var _decoratorsInline2 = _interopRequireDefault(_decoratorsInline);
 
@@ -1499,14 +1586,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	exports.__esModule = true;
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
 	exports['default'] = function (instance) {
 	  instance.registerDecorator('inline', function (fn, props, container, options) {
@@ -1534,14 +1621,14 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
 	exports.__esModule = true;
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
 	var logger = {
 	  methodMap: ['debug', 'info', 'warn', 'error'],
@@ -1587,7 +1674,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 28 */
+/* 29 */
 /***/ function(module, exports) {
 
 	// Build out our basic SafeString type
@@ -1608,7 +1695,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 29 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1628,15 +1715,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
 
-	var _utils = __webpack_require__(15);
+	var _utils = __webpack_require__(16);
 
 	var Utils = _interopRequireWildcard(_utils);
 
-	var _exception = __webpack_require__(16);
+	var _exception = __webpack_require__(17);
 
 	var _exception2 = _interopRequireDefault(_exception);
 
-	var _base = __webpack_require__(14);
+	var _base = __webpack_require__(15);
 
 	function checkRevision(compilerInfo) {
 	  var compilerRevision = compilerInfo && compilerInfo[0] || 1,
@@ -1906,7 +1993,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 30 */
+/* 31 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {/* global window */
@@ -1933,7 +2020,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 31 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1952,11 +2039,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
-	var _Options = __webpack_require__(10);
+	var _Options = __webpack_require__(11);
 
 	var _Options2 = _interopRequireDefault(_Options);
 
-	var _templateConfirmHtml = __webpack_require__(32);
+	var _templateConfirmHtml = __webpack_require__(33);
 
 	var _templateConfirmHtml2 = _interopRequireDefault(_templateConfirmHtml);
 
@@ -1985,10 +2072,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 32 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Handlebars = __webpack_require__(12);
+	var Handlebars = __webpack_require__(13);
 	function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
 	module.exports = (Handlebars["default"] || Handlebars).template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
 	    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
@@ -2005,7 +2092,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	},"useData":true});
 
 /***/ },
-/* 33 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2024,11 +2111,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
-	var _Options = __webpack_require__(10);
+	var _Options = __webpack_require__(11);
 
 	var _Options2 = _interopRequireDefault(_Options);
 
-	var _templateAlertHtml = __webpack_require__(34);
+	var _templateAlertHtml = __webpack_require__(35);
 
 	var _templateAlertHtml2 = _interopRequireDefault(_templateAlertHtml);
 
@@ -2057,10 +2144,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 34 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Handlebars = __webpack_require__(12);
+	var Handlebars = __webpack_require__(13);
 	function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
 	module.exports = (Handlebars["default"] || Handlebars).template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
 	    var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;

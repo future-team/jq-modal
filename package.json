@@ -1,6 +1,6 @@
 {
   "name": "jq-modal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "模块开发脚手架项目",
   "main": "lib/",
   "repository": "git@github.com:future-team/jq-modal.git",

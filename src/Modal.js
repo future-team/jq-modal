@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import Drag from './Drag';
 
 //let modalMap = {};
 
@@ -127,6 +128,7 @@ class Modal{
                 this.bindEvent();
             }
             this.modal.data('bindEvent',1);
+            this.drag(element.find('.header'));
             //this.container.append(this.element.clone(true) );
         }else{
             this.createModal();
@@ -140,6 +142,12 @@ class Modal{
         },c) );
 
         this.setCenter();
+    }
+
+    drag(id){
+        if(this.options.isDrag){
+            Drag(id,this.modal);
+        }
     }
 
     bindEvent(){
