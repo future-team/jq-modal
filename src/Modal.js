@@ -3,6 +3,8 @@ import Drag from './Drag';
 
 //let modalMap = {};
 
+let index = 0;
+
 class Modal{
 
     constructor(options){
@@ -57,11 +59,15 @@ class Modal{
         this.iframe.fadeIn(this.options.duration);
         this.modal.fadeIn(this.options.duration);
         this.display = 'hide';
+        index+=1;
     }
     //隐藏
     hide(){
+        index-=1;
+        if(index<=0){
+            this.iframe.fadeOut(this.options.duration);
+        }
         var _this = this;
-        this.iframe.fadeOut(this.options.duration);
         this.modal.fadeOut(this.options.duration,function(){
             _this.dispose();
         });

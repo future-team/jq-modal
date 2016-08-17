@@ -4,7 +4,7 @@ import dialog from './Dialog';
 //cmd导出
 export mask from './Dialog';
 export confirm from './Confirm';
-export alert from './alert';
+export alert from './Alert';
 
 //全局导出
 if(typeof(Modal) == 'undefined'){

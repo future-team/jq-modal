@@ -40,4 +40,5 @@ $('#custom2').click(function(){
             console.dir('关闭2');
         }
     });
+    alert('测试一下模态框是可以的');
 });

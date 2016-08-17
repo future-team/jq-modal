@@ -89,11 +89,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.confirm = _Confirm2['default'];
 
-	var _alert2 = __webpack_require__(34);
+	var _Alert = __webpack_require__(34);
 
-	var _alert3 = _interopRequireDefault(_alert2);
+	var _Alert2 = _interopRequireDefault(_Alert);
 
-	exports.alert = _alert3['default'];
+	exports.alert = _Alert2['default'];
 
 	//全局导出
 	if (typeof Modal == 'undefined') {
