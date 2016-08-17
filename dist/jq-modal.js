@@ -521,6 +521,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	//let modalMap = {};
 
+	var index = 0;
+
 	var Modal = (function () {
 	    function Modal(options) {
 	        _classCallCheck(this, Modal);
@@ -577,13 +579,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	        this.iframe.fadeIn(this.options.duration);
 	        this.modal.fadeIn(this.options.duration);
 	        this.display = 'hide';
+	        index += 1;
 	    };
 
 	    //隐藏
 
 	    Modal.prototype.hide = function hide() {
+	        index -= 1;
+	        if (index <= 0) {
+	            this.iframe.fadeOut(this.options.duration);
+	        }
 	        var _this = this;
-	        this.iframe.fadeOut(this.options.duration);
 	        this.modal.fadeOut(this.options.duration, function () {
 	            _this.dispose();
 	        });
