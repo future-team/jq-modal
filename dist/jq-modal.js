@@ -521,7 +521,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	//let modalMap = {};
 
-	var index = 0;
+	//let index = 0;
 
 	var Modal = (function () {
 	    function Modal(options) {
@@ -577,16 +577,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    Modal.prototype.show = function show() {
 	        this.iframe.fadeIn(this.options.duration);
-	        this.modal.fadeIn(this.options.duration);
+	        this.modal.addClass('f-modal-flag-iframe').fadeIn(this.options.duration);
 	        this.display = 'hide';
-	        index += 1;
 	    };
 
 	    //隐藏
 
 	    Modal.prototype.hide = function hide() {
-	        index -= 1;
-	        if (index <= 0) {
+	        //index-=1;
+	        this.modal.removeClass('f-modal-flag-iframe');
+	        if (_jquery2['default']('.f-modal-flag-iframe').size() <= 0) {
 	            this.iframe.fadeOut(this.options.duration);
 	        }
 	        var _this = this;

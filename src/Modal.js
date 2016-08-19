@@ -3,7 +3,7 @@ import Drag from './Drag';
 
 //let modalMap = {};
 
-let index = 0;
+//let index = 0;
 
 class Modal{
 
@@ -57,14 +57,14 @@ class Modal{
     //显示
     show(){
         this.iframe.fadeIn(this.options.duration);
-        this.modal.fadeIn(this.options.duration);
+        this.modal.addClass('f-modal-flag-iframe').fadeIn(this.options.duration);
         this.display = 'hide';
-        index+=1;
     }
     //隐藏
     hide(){
-        index-=1;
-        if(index<=0){
+        //index-=1;
+        this.modal.removeClass('f-modal-flag-iframe');
+        if($('.f-modal-flag-iframe').size()<=0){
             this.iframe.fadeOut(this.options.duration);
         }
         var _this = this;
