@@ -3,7 +3,7 @@ import Modal from './Modal';
 import opts from './Options';
 import defaultTemplate from '../template/alert.html';
 
-class Alert{
+let Alert = class Alert{
 
     constructor(options = {}){
 
@@ -13,7 +13,7 @@ class Alert{
         return new Modal(options);
     }
 
-}
+};
 
 export default (message,options)=>{
     options = $.extend({

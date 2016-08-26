@@ -5,7 +5,7 @@ import Drag from './Drag';
 
 //let index = 0;
 
-class Modal{
+export default class Modal{
 
     constructor(options){
 
@@ -178,5 +178,3 @@ class Modal{
         } );
     }
 }
-
-export default Modal;

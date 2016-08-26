@@ -5,6 +5,7 @@ var path = require('path');
 var webpack = require('webpack');
 var config = require('../package.json');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var es3ifyPlugin = require('es3ify-webpack-plugin');
 
 module.exports ={
     entry:[path.join(process.cwd(),'src/index.js')],
@@ -57,6 +58,7 @@ module.exports ={
         ]
     },
     plugins: [
+        new es3ifyPlugin()
         //new webpack.optimize.CommonsChunkPlugin('common.js')
         //new ExtractTextPlugin(path.join(config.name+'.css'))
     ]

@@ -25,7 +25,7 @@ var page = {
     }
 };
 
-function Drag(id,current) {
+export default function Drag(id,current) {
 
     let needMove = current ? current: id;
 
@@ -62,5 +62,3 @@ function Drag(id,current) {
     });
 }
 
-
-export default Drag;

@@ -3,7 +3,7 @@ import Modal from './Modal';
 import opts from './Options';
 import defaultTemplate from '../template/confirm.html';
 
-class Confirm{
+let Confirm = class Confirm{
 
     constructor(options = {}){
 
@@ -14,7 +14,7 @@ class Confirm{
         return new Modal(options);
     }
 
-}
+};
 
 export default (message,options)=>{
     options = $.extend({

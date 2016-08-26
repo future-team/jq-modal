@@ -3,7 +3,7 @@ import Modal from './Modal';
 import opts from './Options';
 import defaultTemplate from '../template/dialog.html';
 
-class Dialog{
+let Dialog = class Dialog{
 
     constructor(options = {}){
 
@@ -14,7 +14,7 @@ class Dialog{
         return new Modal(options);
     }
 
-}
+};
 
 export default (id,options)=>{
     options = $.extend({
