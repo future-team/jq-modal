@@ -474,17 +474,25 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _templateDialogHtml2 = _interopRequireDefault(_templateDialogHtml);
 	
-	var Dialog = function Dialog() {
-	    var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+	var Dialog = (function () {
+	    function Dialog() {
+	        var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 	
-	    _classCallCheck(this, Dialog);
+	        _classCallCheck(this, Dialog);
 	
-	    options = _jquery2['default'].extend({}, _Options2['default'], options);
-	    //确认模板
-	    //debugger;
-	    options.template = options.template ? options.template(options) : _templateDialogHtml2['default'](options);
-	    return new _Modal2['default'](options);
-	};
+	        options = _jquery2['default'].extend({}, _Options2['default'], options);
+	        //确认模板
+	        //debugger;
+	        options.template = options.template ? options.template(options) : _templateDialogHtml2['default'](options);
+	        this.modal = new _Modal2['default'](options);
+	    }
+	
+	    Dialog.prototype.getModal = function getModal() {
+	        return this.modal;
+	    };
+	
+	    return Dialog;
+	})();
 	
 	exports['default'] = function (id, options) {
 	    options = _jquery2['default'].extend({
@@ -492,7 +500,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        content: typeof id == 'string' ? id : null
 	    }, options || {});
 	
-	    var d = new Dialog(options);
+	    var d = new Dialog(options).getModal();
 	    d.show();
 	    return d;
 	};
@@ -2053,24 +2061,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _templateConfirmHtml2 = _interopRequireDefault(_templateConfirmHtml);
 	
-	var Confirm = function Confirm() {
-	    var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+	var Confirm = (function () {
+	    function Confirm() {
+	        var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 	
-	    _classCallCheck(this, Confirm);
+	        _classCallCheck(this, Confirm);
 	
-	    options = _jquery2['default'].extend({}, _Options2['default'], options);
-	    //确认模板
-	    //debugger;
-	    options.template = options.template ? options.template(options) : _templateConfirmHtml2['default'](options);
-	    return new _Modal2['default'](options);
-	};
+	        options = _jquery2['default'].extend({}, _Options2['default'], options);
+	        //确认模板
+	        //debugger;
+	        options.template = options.template ? options.template(options) : _templateConfirmHtml2['default'](options);
+	        this.modal = new _Modal2['default'](options);
+	    }
+	
+	    Confirm.prototype.getModal = function getModal() {
+	        return this.modal;
+	    };
+	
+	    return Confirm;
+	})();
 	
 	exports['default'] = function (message, options) {
 	    options = _jquery2['default'].extend({
 	        message: message
 	    }, options || {});
 	
-	    var d = new Confirm(options);
+	    var d = new Confirm(options).getModal();
 	    d.show();
 	    return d;
 	};
@@ -2125,16 +2141,24 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _templateAlertHtml2 = _interopRequireDefault(_templateAlertHtml);
 	
-	var Alert = function Alert() {
-	    var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+	var Alert = (function () {
+	    function Alert() {
+	        var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
 	
-	    _classCallCheck(this, Alert);
+	        _classCallCheck(this, Alert);
 	
-	    options = _jquery2['default'].extend({}, _Options2['default'], options);
-	    //确认模板
-	    options.template = options.template ? options.template(options) : _templateAlertHtml2['default'](options);
-	    return new _Modal2['default'](options);
-	};
+	        options = _jquery2['default'].extend({}, _Options2['default'], options);
+	        //确认模板
+	        options.template = options.template ? options.template(options) : _templateAlertHtml2['default'](options);
+	        this.modal = new _Modal2['default'](options);
+	    }
+	
+	    Alert.prototype.getModal = function getModal() {
+	        return this.modal;
+	    };
+	
+	    return Alert;
+	})();
 	
 	exports['default'] = function (message, options) {
 	    options = _jquery2['default'].extend({
@@ -2142,7 +2166,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        title: '警告'
 	    }, options || {});
 	
-	    var d = new Alert(options);
+	    var d = new Alert(options).getModal();
 	    d.show();
 	    return d;
 	};
